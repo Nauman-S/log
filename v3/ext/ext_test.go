@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ledgerwatch/log/v3"
+	"github.com/Nauman-S/log"
 )
 
 func testHandler() (log.Handler, *log.Record) {

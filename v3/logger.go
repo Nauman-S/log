@@ -8,9 +8,9 @@ import (
 	"github.com/go-stack/stack"
 )
 
-const timeKey = "t"
-const lvlKey = "lvl"
-const msgKey = "msg"
+const timeKey = "time"
+const lvlKey = "level"
+const msgKey = "content"
 const errorKey = "LOG15_ERROR"
 
 // Lvl is a type for predefined log levels.
@@ -30,17 +30,17 @@ const (
 func (l Lvl) String() string {
 	switch l {
 	case LvlTrace:
-		return "trace"
+		return "TRACE"
 	case LvlDebug:
-		return "dbug"
+		return "DBUG"
 	case LvlInfo:
-		return "info"
+		return "INFO"
 	case LvlWarn:
-		return "warn"
+		return "WARN"
 	case LvlError:
-		return "eror"
+		return "EROR"
 	case LvlCrit:
-		return "crit"
+		return "CRIT"
 	default:
 		panic("bad level")
 	}
