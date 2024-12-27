@@ -1,4 +1,4 @@
-module github.com/Nauman-S/log
+module github.com/Nauman-S/log/v3
 
 go 1.16
 

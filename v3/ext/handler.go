@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/Nauman-S/log"
+	"github.com/Nauman-S/log/v3"
 )
 
 // EscalateErrHandler wraps another handler and passes all records through

@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Nauman-S/log"
+	"github.com/Nauman-S/log/v3"
 )
 
 func testHandler() (log.Handler, *log.Record) {
