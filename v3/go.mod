@@ -1,4 +1,4 @@
-module github.com/ledgerwatch/log/v3
+module github.com/Nauman-S/log
 
 go 1.16
 
